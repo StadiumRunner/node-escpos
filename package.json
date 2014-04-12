@@ -20,7 +20,8 @@
     "usb"
   ],
   "dependencies": {
-    "usb": "*"
+    "usb": "*",
+    "iconv-lite": "*"
   },
   "devDependencies": {
     "nodeunit": "*",
