@@ -5,7 +5,7 @@
   "homepage": "https://github.com/StadiumRunner/node-escpos",
   "author": "Connor Grady <connor@stadiumrunner.com>",
   "license": "MIT",
-  "main": "lib/escpos.js",
+  "main": "escpos.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/StadiumRunner/node-escpos.git"
@@ -21,7 +21,8 @@
   ],
   "dependencies": {
     "usb": "*",
-    "iconv-lite": "*"
+    "iconv-lite": "*",
+    "ink-docstrap": "^0.3.0-0"
   },
   "devDependencies": {
     "nodeunit": "*",

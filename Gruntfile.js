@@ -27,7 +27,10 @@ module.exports = function (grunt) {
 		jsdoc: {
 			docs: {
 				src: [ 'lib/*.js' ],
-				dest: 'doc'
+				dest: 'doc',
+				options: {
+					template: 'node_modules/ink-docstrap/template'
+				}
 			}
 		}
 	});

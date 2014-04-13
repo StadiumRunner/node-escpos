@@ -1,2 +1,2 @@
 
-var escpos = require('../lib/escpos');
+var escpos = require('../escpos');
