@@ -1,0 +1,38 @@
+{
+  "name": "node-escpos",
+  "version": "0.0.1",
+  "description": "A nodejs library to manipulate ESC/POS printers.",
+  "homepage": "https://github.com/StadiumRunner/node-escpos",
+  "author": "Connor Grady <connor@stadiumrunner.com>",
+  "license": "MIT",
+  "main": "escpos.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StadiumRunner/node-escpos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StadiumRunner/node-escpos/issues"
+  },
+  "keywords": [
+    "stadium",
+    "runner",
+    "escpos",
+    "usb"
+  ],
+  "dependencies": {
+    "usb": "*",
+    "iconv-lite": "*",
+    "ink-docstrap": "^0.3.0-0"
+  },
+  "devDependencies": {
+    "nodeunit": "*",
+    "jsdoc": "*",
+    "grunt": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-jsdoc": "*"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  }
+}
