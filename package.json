@@ -1,6 +1,6 @@
 {
   "name": "node-escpos",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "A nodejs library to manipulate ESC/POS printers.",
   "homepage": "https://github.com/StadiumRunner/node-escpos",
   "author": "Connor Grady <connor@stadiumrunner.com>",
