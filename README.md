@@ -59,26 +59,36 @@ myPrinter.print( myPrintJob, function () {
 
 ## PrintJob
 
-#### text
-- adds plain text to the output
-#### newLine
-- prints a newline character
-#### pad
-- adds vertical white-space
-#### setTextFormat
-- (_coming soon_) set various aspects of font
-#### setFont
-- choose font A or font B
-#### setBold
-- set bold to true/false
-#### setUnderline
-- set underline to true/false
-#### setTextAlignment
-- set alignment to 'left', 'center' or 'right'
-#### separator
-- print horizontal line
-#### cut
-- cuts paper
+- #### text
+ adds plain text to the output
+ 
+- #### newLine
+ prints a newline character
+ 
+- #### pad
+ adds vertical white-space
+ 
+- #### setTextFormat
+ (_coming soon_) set various aspects of font
+ 
+- #### setFont
+ choose font A or font B
+ 
+- #### setBold
+ set bold to true/false
+ 
+- #### setUnderline
+ set underline to true/false
+ 
+- #### setTextAlignment
+ set alignment to 'left', 'center' or 'right'
+ 
+- #### separator
+ print horizontal line
+ 
+- #### cut
+ cuts paper
+ 
 
 
 ## Printer
