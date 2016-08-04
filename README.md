@@ -84,3 +84,14 @@ myPrinter.print( myPrintJob, function () {
 ## Printer
 
 #### todo
+
+
+
+## Thanks
+
+The [python-escpos][python-escpos] team - for creating the original, Python version
+[@StaduimRunner][stadiumrunner] - for their great work creating a nodejs version
+
+
+[python-escpos]: https://code.google.com/p/python-escpos
+[stadiumrunner]: https://github.com/StadiumRunner
