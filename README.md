@@ -6,10 +6,9 @@ A nodejs library to interact with the Excelvan/Hoin POS-80 / POS-58 printer over
 
 ## Getting started
 
-Clone the repo `git clone https://github.com/carlevans719/node-escpos.git`
-Install dependencies `sudo apt-get install libudev-dev` and `npm install`
-Plug in the printer
-
+Clone the repo `git clone https://github.com/carlevans719/node-escpos.git`.
+Install dependencies `sudo apt-get install libudev-dev` and `npm install`.
+Plug in the printer.
 ```js
 const { Printer, PrintJob } = require( './escpos.js' );
 
@@ -60,16 +59,26 @@ myPrinter.print( myPrintJob, function () {
 
 ## PrintJob
 
-#### text - adds plain text to the output
-#### newLine - prints a newline character
-#### pad - adds vertical white-space
-#### setTextFormat - (_coming soon_) set various aspects of font
-#### setFont - choose font A or font B
-#### setBold - set bold to true/false
-#### setUnderline - set underline to true/false
-#### setTextAlignment - set alignment to 'left', 'center' or 'right'
-#### separator - print horizontal line
-#### cut - cut paper
+#### text
+- adds plain text to the output
+#### newLine
+- prints a newline character
+#### pad
+- adds vertical white-space
+#### setTextFormat
+- (_coming soon_) set various aspects of font
+#### setFont
+- choose font A or font B
+#### setBold
+- set bold to true/false
+#### setUnderline
+- set underline to true/false
+#### setTextAlignment
+- set alignment to 'left', 'center' or 'right'
+#### separator
+- print horizontal line
+#### cut
+- cuts paper
 
 
 ## Printer
