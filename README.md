@@ -90,6 +90,7 @@ myPrinter.print( myPrintJob, function () {
 ## Thanks
 
 The [python-escpos][python-escpos] team - for creating the original, Python version
+
 [@StaduimRunner][stadiumrunner] - for their great work creating a nodejs version
 
 
