@@ -22,7 +22,7 @@ myPrintJob.text('hello, printed world!'); // Add some plain text to the output
 myPrinter.print(myPrintJob); // Send the job to the printer
 ```
 
-## Example
+## Usage
 
 ```js
 const { Printer, PrintJob } = require( './escpos.js' );
@@ -60,40 +60,79 @@ myPrinter.print( myPrintJob, function () {
 ## PrintJob
 
 - #### text
+ _param: text { String } The text to print_
+
  adds plain text to the output
- 
+
 - #### newLine
+ _param: count { Number } How many new lines to print_
+
  prints a newline character
- 
+
 - #### pad
+ _param: count { Number } How much white-space (in vertical units)_
+
  adds vertical white-space
- 
+
 - #### setTextFormat
- (_coming soon_) set various aspects of font
- 
+ _param: format { String } The format to set_
+
+ __(coming soon)__ set various aspects of font
+
 - #### setFont
+ _param: font { String } The font to use. Either 'A' or 'B'_
+
  choose font A or font B
- 
+
 - #### setBold
+ _param: enabled { Boolean } Whether to turn bold on or off_
+
  set bold to true/false
- 
+
 - #### setUnderline
+ _param: enabled { Boolean } Whether to turn underline on or off_
+
  set underline to true/false
- 
+
 - #### setTextAlignment
- set alignment to 'left', 'center' or 'right'
- 
+ _param: alignment { String } What to set the text alignment to_
+
+ sets text alignment to 'left', 'center' or 'right'
+
 - #### separator
  print horizontal line
- 
+
 - #### cut
+ _param: fullCut { Boolean } Whether to cut through the whole width of the paper (default=false)_
+
  cuts paper
- 
+
 
 
 ## Printer
 
-#### todo
+- #### connect
+ _param: manufacturerId { String } The usb device's manufacturer ID_
+ _param: vendorId { String } The usb device's vendor ID_
+ _param: callback { Function } called on completion_
+
+ establishes a connection to the printer, taking control from the OS
+
+- #### disconnect
+ _param: callback { Function } called on completion_
+
+ returns control of the printer to the OS and closes the connection to it
+
+- #### print
+ _param: printJob { Object:PrintJob } The job to print_
+ _param: callback { Function } called on completion_
+
+ sends the commands in the printJob
+
+
+
+## License
+MIT
 
 
 
