@@ -105,8 +105,6 @@ myPrinter.print( myPrintJob, function () {
  print horizontal line
 
 - #### cut
- _param: fullCut { Boolean } Whether to cut through the whole width of the paper (default=false)_
-
  cuts paper
 
 
