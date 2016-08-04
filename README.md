@@ -7,7 +7,9 @@ A nodejs library to interact with the Excelvan/Hoin POS-80 / POS-58 printer over
 ## Getting started
 
 Clone the repo `git clone https://github.com/carlevans719/node-escpos.git`.
+
 Install dependencies `sudo apt-get install libudev-dev` and `npm install`.
+
 Plug in the printer.
 ```js
 const { Printer, PrintJob } = require( './escpos.js' );
